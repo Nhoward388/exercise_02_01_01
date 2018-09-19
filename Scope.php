@@ -24,7 +24,7 @@
               echo "This is a $localVariable";
             };
             function globalExample() {
-            $globalVariable = "another one";
+              global $globalVariable;
               echo "This is a $globalVariable";
             };
             globalExample();
